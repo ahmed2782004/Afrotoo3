@@ -17,7 +17,7 @@ jobs:
          with:
             all_but_latest: true
             access_token: ${{ github.token }}
-       - name: initialization jepthoniq
+       - name: initialization ahmed2782004
          continue-on-error: true
          run: |
            git config --global user.name ${{ secrets.GIT_NAME }}
@@ -33,9 +33,9 @@ jobs:
          continue-on-error: true
          run: |
            cd jepthoniq
-           docker build . -t jepthoniq
-           docker run jepthoniq
-       - name: loop jepthoniq server
+           docker build . -t ahmed2782004
+           docker run ahmed2782004
+       - name: loop ahmed2782004 server
          continue-on-error: true
          run: |
               git clone https://github.com/${GITHUB_REPOSITORY} loop
