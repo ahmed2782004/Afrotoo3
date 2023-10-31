@@ -3,7 +3,7 @@ from math import floor
 
 from telethon.utils import get_display_name
 
-from AfrotooUB import l313l
+from AfrotooRUB import l313l
 
 from ..Config import Config
 from ..core.logger import logging
