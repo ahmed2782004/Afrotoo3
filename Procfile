@@ -1,1 +1,1 @@
-worker: python3 -m AfrotooUB
+worker: python3 -m AfrotooRUB
