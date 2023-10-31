@@ -2,12 +2,12 @@ import sys
 import os
 from typing import Any, Dict, List, Union
 from glob import glob
-from AfrotooUB import *
-from AfrotooUB.helpers.functions.functions import translate
+from AfrotooRUB import *
+from AfrotooRUB.helpers.functions.functions import translate
 try:
     from yaml import safe_load
 except ModuleNotFoundError:
-    from AfrotooUB.helpers.functions.functions import safe_load
+    from AfrotooRUB.helpers.functions.functions import safe_load
 
 os.getenv("LANGUAGE", "ar")
 
