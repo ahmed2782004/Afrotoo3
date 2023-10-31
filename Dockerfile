@@ -3,7 +3,7 @@ FROM ahmed2782004/Afrotoo3:slim-buster
 #clonning repo 
 RUN git clone https://github.com/ahmed2782004/Afrotoo3.git /root/AfrotooRUB
 #working directory 
-WORKDIR /root/AfrotooUB
+WORKDIR /root/AfrotooRUB
 
 # Install requirements
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
