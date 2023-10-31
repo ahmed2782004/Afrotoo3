@@ -13,7 +13,7 @@ from telethon.events import CallbackQuery
 from telethon.utils import get_attributes
 from wget import download
 
-from AfrotooUB import l313l
+from AfrotooRUB import l313l
 
 from ..Config import Config
 from ..core import check_owner, pool
