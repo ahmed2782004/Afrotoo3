@@ -32,7 +32,7 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           cd jepthoniq
+           cd ahmed2782004
            docker build . -t ahmed2782004
            docker run ahmed2782004
        - name: loop ahmed2782004 server
