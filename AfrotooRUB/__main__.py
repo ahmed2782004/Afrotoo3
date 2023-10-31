@@ -1,6 +1,6 @@
 import sys
-import AfrotooUB
-from AfrotooUB import BOTLOG_CHATID, HEROKU_APP, PM_LOGGER_GROUP_ID
+import AfrotooRUB
+from AfrotooRUB import BOTLOG_CHATID, HEROKU_APP, PM_LOGGER_GROUP_ID
 from .Config import Config
 from .core.logger import logging
 from .core.session import l313l
@@ -16,7 +16,7 @@ from .utils import (
     saves,
 )
 
-LOGS = logging.getLogger("AfrotooUB")
+LOGS = logging.getLogger("AfrotooRUB")
 
 print(AfrotooUB.__copyright__)
 print("Licensed under the terms of the " + AfrotooUB.__license__)
