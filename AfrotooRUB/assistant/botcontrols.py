@@ -3,7 +3,7 @@ from datetime import datetime
 
 from telethon.errors import BadRequestError, FloodWaitError, ForbiddenError
 
-from AfrotooUB import l313l
+from AfrotooRUB import l313l
 
 from ..Config import Config
 from ..core.logger import logging
